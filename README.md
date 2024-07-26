@@ -18,16 +18,12 @@ The package provides the following Hamiltonians:
 
 1. Anderson Chain:
 
-   $$
-   H = \sum_{i=1}^{N-1} (c_i^\dagger c_{i+1} + c_{i+1}^\dagger c_i) + \sum_{i=1}^N \varepsilon_i c_i^\dagger c_i
-   $$
+   $$H = \sum_{i=1}^{N-1} (c_i^\dagger c_{i+1} + c_{i+1}^\dagger c_i) + \sum_{i=1}^N \varepsilon_i c_i^\dagger c_i$$
 
    where $\varepsilon_i$ are random numbers drawn from a Gaussian distribution with mean $0$ and standard deviation $\displaystyle \frac{W}{\sqrt{3}}$.
 
 2. Aubry-André Chain:
-   $$
-   H = \sum_{i=1}^{N-1} (c_i^\dagger c_{i+1} + c_{i+1}^\dagger c_i) + \sum_{i=1}^N \cos(2\pi \beta i + \phi) c_i^\dagger c_i
-   $$
+   $$H = \sum_{i=1}^{N-1} (c_i^\dagger c_{i+1} + c_{i+1}^\dagger c_i) + \sum_{i=1}^N \cos(2\pi \beta i + \phi) c_i^\dagger c_i$$
    where $\beta$ is an irrational number and $\phi$ is a phase.
 
 ## Future Work
